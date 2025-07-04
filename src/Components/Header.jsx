@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div id="/" className="p-2  m-15 text-white dark:text-gray-500">
-      <h1 className="text-3xl md:text-5xl text-center font-bold text-gray-600 dark:text-white">
+      <h1 className="text-3xl md:text-5xl text-center font-bold  text-white">
         Hi I'm Bhushan
       </h1>
 
