@@ -7,7 +7,7 @@ function Header() {
         Hi I'm Bhushan
       </h1>
 
-      <p className="text-lg md:text-2xl font-semibold text-gray-500 dark:text-gray-300 text-center mt-5">
+      <p className="text-lg md:text-2xl font-semibold text-gray-300 text-center mt-5">
         Passionate Fullstack Developer | Transforming Ideas Into Seamless and
         Visually Stunning Web solutions
       </p>
