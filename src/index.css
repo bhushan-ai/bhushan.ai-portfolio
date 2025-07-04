@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+.animated-gradient {
+  background: linear-gradient(
+    -45deg,
+    #0f2027,
+    /* Dark Blue/Black */ #203a43,
+    /* Steel Blue */ #2c5364,
+    /* Midnight Teal */ #1e3c72,
+    /* Navy Blue */ #1b1b2f,
+    /* Charcoal Navy */ #343a40,
+    /* Gunmetal Gray */ #0d1b2a /* Deep Ocean Blue */
+  );
+  background-size: 500% 500%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* in your global.css or index.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
