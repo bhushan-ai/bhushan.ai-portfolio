@@ -1,12 +1,44 @@
-# React + Vite
+# 🌐 Bhushan's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio site! Built using **React**, **Tailwind CSS**, and **Lucide React** icons, this project is a reflection of my passion for crafting clean, responsive, and interactive web experiences.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Visit Portfolio Website](https://bhushan-ai.netlify.app/)  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 📱 **Fully Responsive** – Optimized for all screen sizes.
+- 🌗 **Dark Mode** – System-based and toggleable theme.
+- 🎨 **Lucide Icons** – Crisp, scalable icons using Lucide React.
+- ⚡ **Smooth Transitions** – Subtle animations enhance UX.
+- 🧩 **Component-Based Structure** – Clean and modular codebase.
+- 🌍 **Deployed on Netlify** – Fast and reliable deployment.
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/) – UI Library
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [Lucide React](https://lucide.dev/) – Icon library
+
+---
+
+## 📁 Project Structure
+
+```bash
+portfolio-bhushan/
+├── public/
+│   └── logo2.png
+├── src/
+│   ├── assets/         # Project images
+│   ├── components/     # Reusable components (Navbar, Header, Card, etc.)
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+├── index.html
+└── vite.config.js
