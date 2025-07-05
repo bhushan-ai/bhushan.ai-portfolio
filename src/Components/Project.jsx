@@ -23,12 +23,11 @@ function Project() {
       website: "https://weather-forcast-reactapp.netlify.app/",
     },
     {
-      title: "Meme Generator",
-      img: assets.meme,
+      title: "Calculator",
+      img: assets.calc,
 
-      description:
-        "Created this app using React and tailwind i have used react router for routing and and use framer-motion for draggable text and for saving the edited meme i have used dom-to-image-more and downloadjs.",
-      website: "https://meme-generator-reactt.netlify.app/",
+      description: "This is simple calculator I have created using js ",
+      website: "https://calculateop.netlify.app/",
     },
     {
       title: "Shoe Collection",
@@ -46,18 +45,21 @@ function Project() {
         "This was Created by me for my friend he wants me to create something that will handel his daily routine",
       website: "https://todoo-js.netlify.app/",
     },
-    {
-      title: "Calculator",
-      img: assets.calc,
 
-      description: "This is simple calculator I have created using js ",
-      website: "https://calculateop.netlify.app/",
+    {
+      title: "Meme Generator",
+      img: assets.meme,
+
+      description:
+        "Created this app using React and tailwind i have used react router for routing and and use framer-motion for draggable text and for saving the edited meme i have used dom-to-image-more and downloadjs.",
+      website: "https://meme-generator-reactt.netlify.app/",
     },
+
     {
       title: "Voting App",
       img: assets.voting,
       description:
-        "This is backend app I have created using node express and MongoDb This have functionality like login signUp you can vote here you can create candidate and candidate created by only Admin and there can be one admin and admin can't vote  and I have performed all operations using Postman you can checkout the repo by using following link",
+        "Backend app I have created using node express and MongoDb This have functionality like login signUp you can vote here and create candidate, candidate created by only Admin and there can be one admin and admin can't vote you can checkout the repo by using following link",
       website: "https://github.com/bhushan-ai/voting-app-backend",
     },
     {
@@ -73,7 +75,7 @@ function Project() {
   return (
     <div
       id="project"
-      className="w-full h-fit rounded-lg p-2 mt-5 bg-white dark:bg-gradient-to-tl from-gray-900 via-gray-800 to-teal-900
+      className="w-full h-fit rounded-lg mt-4 p-0.5  m-0.5 bg-white dark:bg-gradient-to-tl from-gray-900 via-gray-800 to-teal-900
 text-white dark:text-gray-500 shadow-2xl"
     >
       <h2 className="text-3xl font-bold mb-3 text-center mt-4 text-gray-700 dark:text-white  ">
@@ -89,7 +91,7 @@ text-white dark:text-gray-500 shadow-2xl"
         </button>{" "}
         <div
           ref={scrollRef}
-          className="flex overflow-x-auto scroll-smooth space-x-4 px-8 py-4 no-scrollbar "
+          className="flex overflow-x-auto scroll-smooth space-x-4  no-scrollbar "
         >
           {projects.map((project, index) => {
             return (
