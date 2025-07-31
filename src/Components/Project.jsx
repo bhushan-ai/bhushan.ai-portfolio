@@ -71,11 +71,12 @@ function Project() {
       website: "https://github.com/bhushan-ai/Blogify-Backend",
     },
   ];
+  //  bg-white dark:bg-gradient-to-tl from-gray-900 via-gray-800 to-teal-900
 
   return (
     <div
       id="project"
-      className="w-full h-fit rounded-lg mt-4 p-0.5  m-0.5 bg-white dark:bg-gradient-to-tl from-gray-900 via-gray-800 to-teal-900
+      className="w-full h-fit rounded-lg mt-4 p-0.5  m-0.5
 text-white dark:text-gray-500 shadow-2xl"
     >
       <h2 className="text-3xl font-bold mb-3 text-center mt-4 text-gray-700 dark:text-white  ">
