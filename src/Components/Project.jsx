@@ -85,7 +85,7 @@ text-white dark:text-gray-500 "
       <div className="relative">
         <button
           onClick={() => scroll("left")}
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-black/60 text-white p-2 rounded-full hover:bg-black transition"
+          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-black/60 text-white p-2 rounded-full hover:bg-black transition hidden lg:block"
         >
           {" "}
           <ArrowLeft size={20} />
@@ -107,7 +107,7 @@ text-white dark:text-gray-500 "
         </div>
         <button
           onClick={() => scroll("right")}
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-black/60 text-white p-2 rounded-full hover:bg-black transition"
+          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-black/60 text-white p-2 rounded-full hover:bg-black transition  hidden lg:block"
         >
           <ArrowRight size={20} />
         </button>
