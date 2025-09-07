@@ -16,47 +16,22 @@ function Project() {
   };
   const projects = [
     {
-      title: "Weather App",
-      img: assets.weather,
+      title: "Notebook LM lite",
+      img: assets.ragss,
       description:
-        "I created this app using react js and here i  use rest Api and Context Api concept i style my app using Tailwind ",
-      website: "https://weather-forcast-reactapp.netlify.app/",
+        "NotebookLite is a lightweight Retrieval-Augmented Generation (RAG) application built with Next.js. It allows users to interact with their data through a chat interface, supporting text, PDF, and URL inputs",
+      website: "https://nextjs-rag-application-note-book-li.vercel.app/",
     },
     {
-      title: "Calculator",
-      img: assets.calc,
-
-      description: "This is simple calculator I have created using js ",
-      website: "https://calculateop.netlify.app/",
-    },
-    {
-      title: "Shoe Collection",
-      img: assets.shoe,
-
+      title: "YT Thumbnail Generator",
+      img: assets.thumbnaiss,
       description:
-        "This was my first Project React js, I have created this site for maintain my shoe collection",
+        "A modern AI-powered YouTube Thumbnail Generator built with Next.js, OpenAI, and Fal.ai, styled with TailwindCSS. Upload an image, enter a prompt, and let the AI generate stunning thumbnails for your videos.",
       website: "https://bhushan-ai-shoe-collection.netlify.app/",
     },
-    {
-      title: "Todo App",
-      img: assets.todo,
-
-      description:
-        "This was Created by me for my friend he wants me to create something that will handel his daily routine",
-      website: "https://todoo-js.netlify.app/",
-    },
 
     {
-      title: "Meme Generator",
-      img: assets.meme,
-
-      description:
-        "Created this app using React and tailwind i have used react router for routing and and use framer-motion for draggable text and for saving the edited meme i have used dom-to-image-more and downloadjs.",
-      website: "https://meme-generator-reactt.netlify.app/",
-    },
-
-    {
-      title: "Voting App",
+      title: "Voting App (Backend) ",
       img: assets.voting,
       description:
         "Backend app I have created using node express and MongoDb This have functionality like login signUp you can vote here and create candidate, candidate created by only Admin and there can be one admin and admin can't vote you can checkout the repo by using following link",
@@ -71,7 +46,6 @@ function Project() {
       website: "https://github.com/bhushan-ai/Blogify-Backend",
     },
   ];
-  //  bg-white dark:bg-gradient-to-tl from-gray-900 via-gray-800 to-teal-900 shadow-2xl
 
   return (
     <div

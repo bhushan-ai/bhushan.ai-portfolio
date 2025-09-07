@@ -36,7 +36,7 @@ function Sidebar({ open, setOpen }) {
               >
                 Project
               </a>
-            </SheetTitle>
+            </SheetTitle> 
             <SheetTitle>
               <a
                 onClick={() => {

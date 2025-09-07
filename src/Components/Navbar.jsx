@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import ThemeToggle from "./ThemeToggle.jsx";
 import { AlignJustify } from "lucide-react";
 import Sidebar from "./Sidebar.jsx";
-
+//white dark:bg-gradient-to-tl from-gray-900 via-gray-800 to-teal-900
 function Navbar() {
   const [openSidebar, setOpenSidebar] = useState(false);
   return (
-    <nav className="sticky top-0 z-50 w-full bg-white dark:bg-gradient-to-tl from-gray-900 via-gray-800 to-teal-900 shadow-xl px-4 py-3">
+    <nav className="sticky top-0 z-50 flex justify-center items-center backdrop-blur-lg  shadow-2xl px-4 py-3">
       <div className="w-full max-w-7xl mx-auto flex items-center justify-between overflow-hidden">
         <h1 className="text-2xl sm:text-base md:text-xl font-bold text-gray-900 dark:text-white whitespace-nowrap">
           <a href="/ " className="text-xl">
