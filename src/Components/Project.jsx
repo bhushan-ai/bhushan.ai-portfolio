@@ -31,19 +31,28 @@ function Project() {
     },
 
     {
+      title: "Ai Persona Chat",
+      img: assets.persona,
+
+      description:
+        "A conversational AI application featuring the personas of Hitesh Choudhary and Piyush Garg, built with Next.js. Experience interactive, voice-enabled chat from your favorite tech educators!",
+      website: "https://hitesh-piyush-sir-persona-nextjs.vercel.app/",
+    },
+    {
+      title: "Browser Agent via OpenAI Agent SDK",
+      img: assets.browser,
+
+      description:
+        "A browser automation agent built using the OpenAI Agents SDK, Puppeteer, and Google Gemini, enabling autonomous web interactions such as navigation, form filling, and screenshot capture.",
+      website: "https://github.com/bhushan-ai/Blogify-Backend ",
+    },
+
+    {
       title: "Voting App (Backend) ",
       img: assets.voting,
       description:
         "Backend app I have created using node express and MongoDb This have functionality like login signUp you can vote here and create candidate, candidate created by only Admin and there can be one admin and admin can't vote you can checkout the repo by using following link",
       website: "https://github.com/bhushan-ai/voting-app-backend",
-    },
-    {
-      title: "Blogging App",
-      img: assets.blog,
-
-      description:
-        "This is Fullstack app I have created using ejs node express and MongoDb This have functionality like login signUp you can create blog here you can add image in your blog also you can comment on any particular blog and I have performed all operations using Postman you can checkout the repo by using following link because I haven’t deployed it yet",
-      website: "https://github.com/bhushan-ai/Blogify-Backend",
     },
   ];
 
