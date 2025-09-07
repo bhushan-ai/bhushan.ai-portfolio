@@ -27,7 +27,7 @@ function Project() {
       img: assets.thumbnaiss,
       description:
         "A modern AI-powered YouTube Thumbnail Generator built with Next.js, OpenAI, and Fal.ai, styled with TailwindCSS. Upload an image, enter a prompt, and let the AI generate stunning thumbnails for your videos.",
-      website: "https://bhushan-ai-shoe-collection.netlify.app/",
+      website: "https://github.com/bhushan-ai/thumbnail-generator-GenAi-Nextjs",
     },
 
     {
