@@ -14,17 +14,16 @@ function Navbar() {
             bhushann.ai
           </a>
         </h1>
-        <div className="block lg:hidden md:hidden justify-end ml-20  ">
+        <div className="flex items-center gap-5 lg:hidden md:hidden justify-end">
           {" "}
           <ThemeToggle />
+          <button
+            className="block md:hidden text-gray-800 dark:text-gray-200"
+            onClick={() => setOpenSidebar(true)}
+          >
+            <AlignJustify />
+          </button>
         </div>
-
-        <button
-          className="block md:hidden"
-          onClick={() => setOpenSidebar(true)}
-        >
-          <AlignJustify />
-        </button>
         <Sidebar
           className="block md:hidden"
           open={openSidebar}
@@ -51,8 +50,7 @@ function Navbar() {
               href="#about"
             >
               About
-            </a>
-
+            </a>{" "}
             <ThemeToggle />
           </div>
         </div>

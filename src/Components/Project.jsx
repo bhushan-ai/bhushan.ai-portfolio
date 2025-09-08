@@ -16,6 +16,14 @@ function Project() {
   };
   const projects = [
     {
+      title: "Ai Persona Chat",
+      img: assets.persona,
+
+      description:
+        "A conversational AI application featuring the personas of Hitesh Choudhary and Piyush Garg, built with Next.js. Experience interactive, voice-enabled chat from your favorite tech educators!",
+      website: "https://hitesh-piyush-sir-persona-nextjs.vercel.app/",
+    },
+    {
       title: "Notebook LM lite",
       img: assets.ragss,
       description:
@@ -30,14 +38,6 @@ function Project() {
       website: "https://github.com/bhushan-ai/thumbnail-generator-GenAi-Nextjs",
     },
 
-    {
-      title: "Ai Persona Chat",
-      img: assets.persona,
-
-      description:
-        "A conversational AI application featuring the personas of Hitesh Choudhary and Piyush Garg, built with Next.js. Experience interactive, voice-enabled chat from your favorite tech educators!",
-      website: "https://hitesh-piyush-sir-persona-nextjs.vercel.app/",
-    },
     {
       title: "Browser Agent via OpenAI Agent SDK",
       img: assets.browser,
@@ -62,7 +62,7 @@ function Project() {
       className="w-full h-fit rounded-lg mt-4 p-0.5  m-0.5
 text-white dark:text-gray-500 "
     >
-      <h2 className="text-3xl font-bold mb-3 text-center mt-4  text-white  ">
+      <h2 className="text-3xl font-bold mb-3 text-center mt-4  text-gray-800 dark:text-gray-300  ">
         Projects
       </h2>
       <div className="relative">
@@ -80,6 +80,7 @@ text-white dark:text-gray-500 "
           {projects.map((project, index) => {
             return (
               <Card
+                key={index}
                 title={project.title}
                 img={project.img}
                 desc={project.description}
