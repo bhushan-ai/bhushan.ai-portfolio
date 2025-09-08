@@ -12,11 +12,14 @@ function Header() {
         MERN & GenAi Developer | Building Al Agents & RAG-powered Applications
       </p>
       <div className="items-center flex justify-center mt-6">
-        <ShimmerButton>
-          <a href="#contact" className="text-white text-xl font-bold">
-            {" "}
-            Hire Me
-          </a>{" "}
+        <ShimmerButton
+          onClick={() =>
+            document
+              .getElementById("contact")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+        >
+          <span className="text-white text-xl font-bold">Hire Me</span>
         </ShimmerButton>
       </div>
     </div>

@@ -12,7 +12,7 @@ function Sidebar({ open, setOpen }) {
   return (
     <Fragment>
       <Sheet open={open} onOpenChange={setOpen}>
-        <SheetContent className="h-fit w-64 bg-white dark:bg-gradient-to-tl from-gray-900 via-gray-800 to-teal-900 ">
+        <SheetContent className="h-fit w-64  bg-white dark:bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#2a2a2a] shadow-[0_0_10px_#111]  ">
           <SheetHeader>
             <SheetTitle className="mt-5">
               {" "}
@@ -20,7 +20,7 @@ function Sidebar({ open, setOpen }) {
                 onClick={() => {
                   setOpen(false);
                 }}
-                className="cursor-pointer  hover:text-teal-400  text-xl transition duration-300 ease-in-out transform hover:scale-105 "
+                className="cursor-pointer text-gray-200   hover:underline  text-xl transition duration-300 ease-in-out transform hover:scale-105 "
                 href="#skills"
               >
                 Skills
@@ -31,18 +31,18 @@ function Sidebar({ open, setOpen }) {
                 onClick={() => {
                   setOpen(false);
                 }}
-                className="cursor-pointer  hover:text-teal-400  text-xl transition duration-300 ease-in-out transform hover:scale-105 "
+                className="cursor-pointer text-gray-200  hover:underline  text-xl transition duration-300 ease-in-out transform hover:scale-105 "
                 href="#project"
               >
                 Project
               </a>
-            </SheetTitle> 
+            </SheetTitle>
             <SheetTitle>
               <a
                 onClick={() => {
                   setOpen(false);
                 }}
-                className="cursor-pointer  hover:text-teal-400  text-xl transition duration-300 ease-in-out transform hover:scale-105 "
+                className="cursor-pointer text-gray-200  hover:underline text-xl transition duration-300 ease-in-out transform hover:scale-105 "
                 href="#about"
               >
                 About Me
