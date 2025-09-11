@@ -12,7 +12,7 @@ function Sidebar({ open, setOpen }) {
   return (
     <Fragment>
       <Sheet open={open} onOpenChange={setOpen}>
-        <SheetContent className="h-fit w-64  bg-white dark:bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#2a2a2a] shadow-[0_0_10px_#111]  ">
+        <SheetContent className="h-fit w-64  bg-white dark:bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#2a2a2a] shadow-[0_0_10px_#111] font-chirp ">
           <SheetHeader>
             <SheetTitle className="mt-5">
               {" "}

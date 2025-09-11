@@ -9,12 +9,10 @@ import { Meteors } from "./Components/magicui/meteors.jsx";
 
 function App() {
   return (
-    <div className="  text-white  min-h-screen p-3 ">
+    <div className="min-h-screen p-3 relative overflow-hidden w-full">
       <Meteors number={30} />
-      <div className="  mt-0 mb-0">
-        <Navbar /> <Header />
-        <Skills /> <Project /> <AboutMe /> <Contact />
-      </div>
+      <Navbar /> <Header />
+      <Skills /> <Project /> <AboutMe /> <Contact />
     </div>
   );
 }
