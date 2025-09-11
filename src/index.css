@@ -2,6 +2,18 @@
 
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Chirp";
+  src: url("/fonts/Chirp-Regular.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+@layer base {
+  .font-chirp {
+    font-family: "Chirp", sans-serif;
+  }
+}
+
 .animated-gradient {
   background: linear-gradient(
     -45deg,
