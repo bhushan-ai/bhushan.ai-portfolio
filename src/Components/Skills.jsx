@@ -4,6 +4,7 @@ const frontEndSkills = [
   { name: "CSS3" },
   { name: "Tailwind" },
   { name: "React.js" },
+  { name: "Next.js" },
 ];
 
 const GenAi = [
