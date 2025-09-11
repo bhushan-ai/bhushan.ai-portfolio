@@ -12,7 +12,7 @@ function Header() {
       />
       <div className="flex items-center justify-center">
         {" "}
-        <p className="text-lg md:text-2xl font-semibold text-gray-500 dark:text-gray-300 text-center mt-5 font-chirp">
+        <p className="text-lg md:text-2xl font-semibold text-gray-500 dark:text-gray-300 text-center mt-1 md:mt-5 font-chirp">
           I Build Backends | AI Agents & RAG-powered Applications
         </p>
       </div>
