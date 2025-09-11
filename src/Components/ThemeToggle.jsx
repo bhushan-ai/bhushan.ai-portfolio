@@ -27,7 +27,7 @@ function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className=" text-gray-800 dark:text-white rounded-full "
+      className=" text-gray-800 dark:text-white cursor-pointer rounded-full "
     >
       {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
     </button>

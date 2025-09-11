@@ -60,7 +60,7 @@ function Project() {
     <div
       id="project"
       className="w-full h-fit rounded-lg mt-4 p-0.5  m-0.5
-text-white dark:text-gray-500 "
+text-white dark:text-gray-500 font-chirp "
     >
       <h2 className="text-3xl font-bold mb-3 text-center mt-4  text-gray-800 dark:text-gray-300  ">
         Projects

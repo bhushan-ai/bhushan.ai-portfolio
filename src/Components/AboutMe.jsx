@@ -3,10 +3,13 @@ import React from "react";
 function AboutMe() {
   return (
     <>
-      <h1 className="text-2xl text-center md:text-3xl font-bold text-gray-800 dark:text-gray-300  ">
+      <h1 className="text-2xl text-center md:text-3xl font-bold text-gray-800 dark:text-gray-300  font-chirp">
         About Me
       </h1>
-      <section id="about" className="flex items-center justify-center">
+      <section
+        id="about"
+        className="flex items-center justify-center font-chirp"
+      >
         <div
           className="w-fit h-fit rounded-lg p-8 mt-5 bg-white dark:bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#2a2a2a] shadow-[0_0_10px_#111]
 text-white dark:text-gray-500"

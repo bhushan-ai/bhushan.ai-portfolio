@@ -7,7 +7,7 @@ function Header() {
     <div id="/" className="p-2  m-15 ">
       <WordRotate
         duration={3000}
-        className="text-3xl md:text-5xl text-center font-bold  text-gray-800 dark:text-gray-300 "
+        className="text-3xl md:text-5xl text-center font-extrabold  text-gray-800 dark:text-gray-300 font-chirp "
         words={["I'm bhushann", "MERN Dev", "GenAI Dev ", "Backend Dev "]}
       />
       <div className="flex items-center justify-center">
@@ -25,7 +25,9 @@ function Header() {
               ?.scrollIntoView({ behavior: "smooth" })
           }
         >
-          <span className="text-white text-xl font-bold">Hire Me</span>
+          <span className="text-white text-xl font-chirp font-bold">
+            Hire Me
+          </span>
         </ShimmerButton>
       </div>
     </div>
