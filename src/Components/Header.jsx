@@ -7,7 +7,7 @@ function Header() {
     <div id="/" className="p-2  m-15 ">
       <WordRotate
         duration={3000}
-        className="text-3xl md:text-5xl text-center font-extrabold  text-gray-800 dark:text-gray-300 font-chirp "
+        className="text-3xl md:text-5xl text-center font-extrabold  text-gray-800 dark:text-gray-300 font-chirp"
         words={["I'm bhushann", "MERN Dev", "GenAI Dev ", "Backend Dev "]}
       />
       <div className="flex items-center justify-center">
