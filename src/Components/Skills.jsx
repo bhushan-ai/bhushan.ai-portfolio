@@ -6,17 +6,35 @@ const frontEndSkills = [
   { name: "React.js" },
 ];
 
+const GenAi = [
+  { name: "OpenAI API" },
+  { name: "LangChain" },
+  { name: "RAG" },
+  { name: "Agents" },
+  { name: "OpenAi Agent Sdk" },
+  { name: "Vector DB's " },
+];
 const backendSkills = [
-  { name: "MongoDB" },
-  { name: "Express.js" },
   { name: "Node.js" },
+  { name: "Express.js" },
   { name: "Mongoose" },
+  { name: "MongoDB" },
+  { name: "QdrantDb" },
+  { name: "PineconeDb" },
   { name: "Postman" },
 ];
 
 const programmingLang = [{ name: "C" }, { name: "C++" }, { name: "Java" }];
+const DevOpsCloud = [
+  { name: "Docker" },
+  { name: "Kubernetes (basic)" },
+  { name: "AWS (basic)" },
+  { name: "Render" },
+  { name: "Vercel" },
+  { name: "Netlify" },
+];
 
-const otherSkills = [{ name: "Git" }, { name: "GitHub" }, { name: "Netlify" }];
+const Tools = [{ name: "Git" }, { name: "GitHub" }];
 
 export default function Skills() {
   return (
@@ -26,7 +44,7 @@ export default function Skills() {
           Skills
         </h2>
 
-        <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 px-1 py-5 mr-8 mt-2 ">
+        <div className=" grid grid-cols-2 md:grid-cols-6 gap-4 px-1 py-5 mr-8 mt-2 ">
           <div className="w-full  px-4 py-5 m-3 rounded-2xl bg-white dark:bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#2a2a2a] shadow-[0_0_10px_#111] transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
             <h1 className="text-center text-xl md:text-2xl font-semibold ">
               FrontEnd
@@ -76,9 +94,39 @@ export default function Skills() {
 
           <div className="w-full  px-4 py-5 m-4 rounded-2xl dark:bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#2a2a2a] shadow-[0_0_10px_#111] transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
             <h1 className="text-center text-xl md:text-2xl font-semibold ">
-              Other Skills
+              GenAi
             </h1>
-            {otherSkills.map((skills, index) => {
+            {GenAi.map((skills, index) => {
+              return (
+                <div
+                  className="text-center border-[#535252]   border-3 rounded-full m-2"
+                  key={index}
+                >
+                  <h3 className=" font-semibold ">{skills.name}</h3>
+                </div>
+              );
+            })}
+          </div>
+          <div className="w-full  px-4 py-5 m-4 rounded-2xl dark:bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#2a2a2a] shadow-[0_0_10px_#111] transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
+            <h1 className="text-center text-xl md:text-2xl font-semibold ">
+              DevOps/Cloud
+            </h1>
+            {DevOpsCloud.map((skills, index) => {
+              return (
+                <div
+                  className="text-center border-[#535252]   border-3 rounded-full m-2"
+                  key={index}
+                >
+                  <h3 className=" font-semibold ">{skills.name}</h3>
+                </div>
+              );
+            })}
+          </div>
+          <div className="w-full  px-4 py-5 m-4 rounded-2xl dark:bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#2a2a2a] shadow-[0_0_10px_#111] transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
+            <h1 className="text-center text-xl md:text-2xl font-semibold ">
+              Tools
+            </h1>
+            {Tools.map((skills, index) => {
               return (
                 <div
                   className="text-center border-[#535252]   border-3 rounded-full m-2"
