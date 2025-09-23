@@ -1,5 +1,6 @@
 const frontEndSkills = [
   { name: "JavaScript" },
+  { name: "TypeScript" },
   { name: "HTML5" },
   { name: "CSS3" },
   { name: "Tailwind" },
