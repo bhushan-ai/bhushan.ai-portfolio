@@ -4,7 +4,7 @@ Welcome to my personal developer portfolio site! Built using **React**, **Tailwi
 
 ## 🚀 Live Demo
 
-🔗 [Visit Portfolio Website](https://bhushan-ai.netlify.app/)  
+🔗 [Visit Portfolio Website](https://bhushan-ai.vercel.app/)  
 
 
 ---
