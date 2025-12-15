@@ -16,7 +16,7 @@ Welcome to my personal developer portfolio site! Built using **React**, **Tailwi
 - 🎨 **Lucide Icons** – Crisp, scalable icons using Lucide React.
 - ⚡ **Smooth Transitions** – Subtle animations enhance UX.
 - 🧩 **Component-Based Structure** – Clean and modular codebase.
-- 🌍 **Deployed on Netlify** – Fast and reliable deployment.
+- 🌍 **Deployed on Vercel** – Fast and reliable deployment.
 
 ---
 
