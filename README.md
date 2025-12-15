@@ -1,4 +1,4 @@
-# 🌐 Bhushan's Developer Portfolio
+# 🌐 Portfolio Site
 
 Welcome to my personal developer portfolio site! Built using **React**, **Tailwind CSS**, and **Lucide React** icons, this project is a reflection of my passion for crafting clean, responsive, and interactive web experiences.
 
