@@ -1,10 +1,10 @@
-# 🌐 Bhushan's Developer Portfolio
+# 🌐 Portfolio Site
 
 Welcome to my personal developer portfolio site! Built using **React**, **Tailwind CSS**, and **Lucide React** icons, this project is a reflection of my passion for crafting clean, responsive, and interactive web experiences.
 
 ## 🚀 Live Demo
 
-🔗 [Visit Portfolio Website](https://bhushan-ai.netlify.app/)  
+🔗 [Visit Portfolio Website](https://bhushan-ai.vercel.app/)  
 
 
 ---
@@ -16,7 +16,7 @@ Welcome to my personal developer portfolio site! Built using **React**, **Tailwi
 - 🎨 **Lucide Icons** – Crisp, scalable icons using Lucide React.
 - ⚡ **Smooth Transitions** – Subtle animations enhance UX.
 - 🧩 **Component-Based Structure** – Clean and modular codebase.
-- 🌍 **Deployed on Netlify** – Fast and reliable deployment.
+- 🌍 **Deployed on Vercel** – Fast and reliable deployment.
 
 ---
 
