@@ -16,12 +16,12 @@ function Project() {
   };
   const projects = [
     {
-      title: "Ai Persona Chat",
-      img: assets.persona,
+      title: "Exenalytics",
+      img: assets.exelanalytics,
 
       description:
-        "A conversational AI application featuring the personas of Hitesh Choudhary and Piyush Garg, built with Next.js. Experience interactive, voice-enabled chat from your favorite tech educators!",
-      website: "https://hitesh-piyush-sir-persona-nextjs.vercel.app/",
+        "Excel Analytics Platform is a web application that aims to let users upload Excel sheets, analyze them with AI, generate summaries and charts, and manage accounts & settings.",
+      website: "https://exenalytics.vercel.app/",
     },
     {
       title: "Notebook LM lite",
