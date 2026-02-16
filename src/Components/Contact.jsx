@@ -45,7 +45,7 @@ text-white dark:text-gray-500 "
           </a>
 
           <a
-            href="https://www.linkedin.com/in/bhushan-ingole/"
+            href="https://www.linkedin.com/in/bhushan-ai/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-200 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition duration-300 ease-in-out transform hover:scale-105"
